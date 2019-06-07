@@ -1,1 +1,2 @@
-#  slideshow
+#  Slide Show
+
