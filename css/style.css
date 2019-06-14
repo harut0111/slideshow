@@ -62,9 +62,3 @@ img{
 .button:active {
     background: rgb(51, 167, 60);
 }
-
-@media only screen and (max-width: 400px) {
-    #container {
-        height: 50vh;
-    }
-}
