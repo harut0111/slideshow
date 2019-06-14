@@ -10,40 +10,44 @@
 /* container */
 #container {
     position: relative;
-    top: 50px;
-    left: 50px;
     border: 2px solid white;
     border-radius: 5px;
-    height: auto;
+    height: 90vh;
     width: 60%;
     margin: auto;
     padding: 0;
     color: rgb(0, 255, 0);
-    display: inline-block;
+}
+
+#container:after{
+    content: '';
+    display: table;
+    clear: both;
 }
 
 img{
+    position: absolute;
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 #buttonCont {
+    width: 100%;
     position: absolute;
-    top: 0;
-    margin: 10px;
     background: none;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .button {
     display: block;
-    float: left;
     padding: 10px;
+    margin: 10px;
     color: white;
     background: rgb(0, 0, 0);
-    display: block;
     border: 1px solid white;
     border-radius: 12px;
-    margin: 5px;
     cursor: pointer;
 }
 .active {
